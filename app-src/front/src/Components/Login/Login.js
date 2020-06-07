@@ -25,31 +25,14 @@ class Login extends Component{
                         <i class="fas fa-search" aria-hidden="true"></i>
                     </span>
                     </p>
+                    
                 </div>
-                <a class="panel-block is-active">
-                    <span class="panel-icon">
-                    <i class="fas fa-book" aria-hidden="true"></i>
-                    </span>
-                    bulma
-                </a>
-                <a class="panel-block">
-                    <span class="panel-icon">
-                    <i class="fas fa-book" aria-hidden="true"></i>
-                    </span>
-                    marksheet
-                </a>
-                <a class="panel-block">
-                    <span class="panel-icon">
-                    <i class="fas fa-book" aria-hidden="true"></i>
-                    </span>
-                    minireset.css
-                </a>
-                <a class="panel-block">
-                    <span class="panel-icon">
-                    <i class="fas fa-book" aria-hidden="true"></i>
-                    </span>
-                    jgthms.github.io
-                </a>
+                <div class="panel-block">
+                    <p class="control has-icons-left">
+                        <button className='button is-primary' style={{margin:'0px auto'}}>Log Me In</button>
+                    </p>
+                    
+                </div>
                 </article>
                 <br />
             <Footer />
