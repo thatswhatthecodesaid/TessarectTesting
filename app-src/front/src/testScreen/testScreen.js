@@ -1,4 +1,6 @@
 import React from 'react'
+import {Button, Card} from 'react-bootstrap/Button'
+
 
 class Question extends React.Component{
 
