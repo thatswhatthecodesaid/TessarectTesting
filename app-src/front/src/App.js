@@ -6,7 +6,7 @@ import Login from './Components/Login/Login';
 import Register from './Components/Register/Register';
 import Navbar from './Components/UI_Components/Navbar/Navbar';
 import Footer from './Components/UI_Components/Footer/Footer';
-import Question from './testScreen/testScreen';
+import TestsScreen from './Components/testScreen/testScreen';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
             <Route exact path='/' component={Login} />
             <Route exact path='/register' component={Register} />
             <Route exact path='/create' component={TestsCreate} />
-            <Route exact path='/tests' component={Question} />
+            <Route exact path='/tests' component={TestsScreen} />
           </Switch>
         </BrowserRouter>
     </div>

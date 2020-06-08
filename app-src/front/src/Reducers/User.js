@@ -1,6 +1,4 @@
-const InitialUser = {
-    name:"Loading... User Details"
-}
+const InitialUser = []
 
 const UserReducer = (state=InitialUser,action)=>{
     switch(action.type)
