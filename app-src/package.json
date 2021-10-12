@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/thatswhatthecodesaid/TessarectTesting#readme",
   "devDependencies": {
-    "electron": "^9.0.2"
+    "electron": "^11.5.0"
   }
 }
